@@ -29,3 +29,49 @@ Jika nilai yang baru dimasukkan lebih besar dari nilai tertinggi sebelumnya, mak
 4. done
 
 
+2.2.3 Pertanyaan
+
+1. Pada potongan kode berikut, tentukan maksud dan kegunaan dari sintaks berikut:
+a. nilai < 0 || nilai > 100
+b. continue
+
+2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya
+dituliskan di awal perulangan WHILE?
+
+3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE
+akan berjalan?
+
+4. Modifikasi kode program sehingga apabila terdapat mahasiswa yang mendapat nilai A,
+program menampilkan pesan tambahan "Bagus, pertahankan nilainya"!
+
+5. Commit dan push kode program ke Github
+
+Jawaban :
+1.      a. nilai < 0 || nilai > 100
+    Mengecek apakah nilai di luar rentang 0–100.
+    Kalau benar, berarti nilai tidak valid.
+        b. continue
+    Melewati sisa perintah di dalam loop dan lanjut ke iterasi berikutnya, supaya user bisa input nilai lagi tanpa menaikkan i.a. nilai < 0 || nilai > 100
+
+2. Karena i++ harus dijalankan setelah input valid selesai.
+Kalau ditulis di awal, i akan naik duluan meskipun nilai belum valid, jadi jumlah mahasiswa yang diproses jadi kurang dari seharusnya.
+
+3. 19 kali, karena kondisi while (i < 19) akan mengulang selama i masih kurang dari 19.
+
+4. done
+
+
+2.3.3 Pertanyaan
+
+1. Pada penggunaan DO-WHILE ini, apabila nama pelanggan yang dimasukkan pertama kali
+adalah “batal”, maka berapa kali perulangan dilakukan?
+2. Sebutkan kondisi berhenti yang digunakan pada perulangan DO-WHILE tersebut!
+3. Apa fungsi dari penggunaan nilai true pada kondisi DO-WHILE?
+4. Mengapa perulangan DO-WHILE tersebut tetap berjalan meskipun tidak ada komponen
+inisialisasi dan update?
+
+Jawaban :
+1. Karena DO-WHILE selalu dijalankan minimal sekali sebelum pengecekan kondisi.
+2. Kondisi berhenti terjadi saat nama pelanggan = "batal" dan perintah break dijalankan.
+3. Nilai true membuat perulangan berjalan terus sampai dihentikan dengan break.
+4. Karena kontrol perulangan diatur oleh kondisi true dan break, bukan variabel penghitung.
